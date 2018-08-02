@@ -17,7 +17,7 @@ system("title "+LOADING)
 print('Loading ''{}'' on version ''{}''...'.format(BOT, VERSION)) ; sleep(1)
 print('Errors:')
 
-TOKEN = 'NDc0MjY2MDU4MzA0NTIwMjUz.DkN-ow.ivavFobUfUX1sKJX0bhTlVPKoK0'
+TOKEN = ''
 
 client = commands.Bot(command_prefix = 'fuck!')
 client.remove_command('help')
