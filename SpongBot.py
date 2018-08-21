@@ -88,7 +88,9 @@ async def invite():
     embed.add_field(name="What I Can Do:", value="fuck!you", inline=True)
     embed.set_footer(text="Version: {} | {}".format(VERSION, AUTHOR))
     await client.say(embed=embed)
-
-
-
+    
+@client.command()
+async def everyone():
+    await client.say("@everyone")
+    
 client.run(TOKEN)
